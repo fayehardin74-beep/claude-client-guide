@@ -1,0 +1,7 @@
+interface:
+  display_name: "Claude 客户使用指导"
+  short_description: "按设备逐步配置网络、账号与订阅，记录进度并提供故障恢复指导"
+  brand_color: "#087F67"
+  default_prompt: "请使用 $claude-client-guide 按我的设备和现有条件完成配置、登录与所需订阅指导。"
+policy:
+  allow_implicit_invocation: true
